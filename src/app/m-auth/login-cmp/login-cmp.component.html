@@ -1,0 +1,30 @@
+<div class="container0"> 
+  <!--<div class="alert alert-danger alert-css" role="alert" [hidden]="(message=='')">
+    <div>{{message}}</div>
+      <button (click)="closeAlert()" class="close-button" >close</button>
+  </div>-->
+<div class="container">
+  <h3 class="title">Login </h3>
+  <form  class="form" [formGroup]="formdata" (ngSubmit)="handleSubmit(formdata.value)">
+    <div class="mb-3">
+      <label class="form-label">Phone number </label>
+      <input name="telephone" type="tel" class="form-control" formControlName="telephone">
+      <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Password </label>
+      <input name="password" type="password" class="form-control" formControlName="password">
+      <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="forgot-password">
+      <a class="form-check-label" routerLink="/m-auth/forgot_password">forgot password ?</a>
+    </div>
+    <input type="submit" class="btn" [disabled]="!formdata.valid" value="Log in"/>
+    <span>
+      <ngx-spinner size="small" type="Ball Spin Clockwise">
+        <p style="font-size: 20px; color: white">Loading...</p>
+      </ngx-spinner>
+    </span>-->
+  </form>
+</div>
+</div>

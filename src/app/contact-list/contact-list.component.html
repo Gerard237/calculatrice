@@ -1,0 +1,24 @@
+
+<!--h2>Mes contacts  <button class="btn btn-success" (click)=add()>Ajouter Contact</button> </h2-->
+
+<app-contact-view></app-contact-view>
+
+<div class="liste">
+  <ul class="list-group container">
+      <app-contact *ngFor="let contact of contacts | paginate: 
+                    { itemsPerPage: 4, currentPage: p }"
+                    [contactName]=contact.name
+                    [contactTel]=contact.telephone                  
+      class="contact"></app-contact>
+    </ul>
+    <pagination-controls 
+  (pageChange)="p = $event" 
+  class="float-right">
+  </pagination-controls>
+  </div>
+
+  <span>
+    <ngx-spinner size="small" type="Ball Spin Clockwise">
+      <p style="font-size: 20px; color: white">Loading...</p>
+    </ngx-spinner>
+  </span>

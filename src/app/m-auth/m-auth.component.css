@@ -1,0 +1,49 @@
+.contenant {
+  text-align: center;
+  border-style: ridge;
+  border-width: 10px;
+  border-color:rgb(41, 120, 211) ;
+  border-radius: 20px;
+  margin: 5% 20% ;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 20px 10px 5px 0px;
+} 
+span{
+  font-size: 120%;
+}
+a{
+  font-size: 120%;
+}
+
+a:hover{
+  font-size: 130%;
+  transition: all .2s ease;
+}
+
+.texte_centrer {
+  font-size: 250%;
+}
+
+b{
+  font-size: 150%;
+}
+
+b:hover{
+  font-size: 170%;
+}
+button{
+  height: 75px;
+  width: 250px;
+  border-style: ridge;
+  border-radius: 15%;
+  background-color: rgb(71, 214, 78);
+  transition: all .2s ease;
+    
+}
+button:hover{
+  width: 280px;
+}
+.form-text{
+  color: black;
+}

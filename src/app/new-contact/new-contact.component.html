@@ -1,0 +1,15 @@
+<app-contact-view></app-contact-view>
+<div class="container">
+    <h3 class="title">Create Contact</h3>
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmitForm()" class="form">
+      <div class="form-group mb-3">
+        <label for="lastName" class="form-label">Nom</label>
+        <input type="text" id="lastName" class="form-control" formControlName="name">
+      </div>
+      <div class="form-group mb-3">
+        <label for="tel" class="form-label">Tel</label>
+        <input type="text" id="tel" class="form-control" formControlName="tel">
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="contactForm.invalid">Ajouter</button>
+    </form>
+  </div>

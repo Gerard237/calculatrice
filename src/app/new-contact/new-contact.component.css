@@ -1,0 +1,24 @@
+.title{
+    display: flex;
+    justify-content: center;
+    text-justify: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 33vw ;
+    margin-top: 6vh;
+    background-color: beige;
+    position:absolute;
+    top: 10vh;
+    right: 50vh;
+    z-index: 2;
+}
+
+.form{
+    width: 30vw;
+    padding: 2vw;
+}
+

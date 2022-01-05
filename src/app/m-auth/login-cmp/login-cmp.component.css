@@ -1,0 +1,59 @@
+.title{
+    display: flex;
+    justify-content: center;
+    text-justify: auto;
+}
+.container0{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    border-radius: 10px;
+    width: 80px;
+}
+
+.btn:hover{
+    width:100px ;
+}
+.form-check-label{
+    font-size: 120%;
+}
+
+.form-check-label:hover{
+    font-size: 130%;
+    transition: all .2s ease;
+}
+
+.alert-css{
+    width: 40vw;
+    display: flex;
+    margin-left: 30vw;
+}
+
+.close-button{
+    justify-content: flex-end;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% 30%;
+    max-width: 33vw ;
+    background-color: rgb(247, 247, 242);
+    border-style: ridge;
+    border-color: darkblue;
+    border-width: 5px;
+    padding: 2%;
+}
+
+.form{
+    width: 30vw;
+    padding: 2vw;
+}
+
+.forgot-password{
+    display:flex;
+    justify-content:flex-end;
+}

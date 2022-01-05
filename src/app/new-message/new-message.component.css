@@ -1,0 +1,63 @@
+.card{
+    max-width:500px !important;
+    margin: auto;
+    margin-top: 4%;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    height: 450px;
+    border-radius: 8px;
+    background-color: rgb(252, 246, 246);
+    
+
+}
+.card-header{
+   color: #fff;
+    background-color: #1e70c7;
+    
+
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    padding:5px;
+    margin-left: 10px;
+}
+
+.form-c{
+    margin-left: 5px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    height: 25px;
+    width: 90%;
+    background-color: rgb(252, 246, 246);;
+    float:right;
+}
+
+.msg-page{
+    padding: 8px;
+   
+}
+
+textarea {
+    margin-top: 20px;
+    width: 90%;
+    display:inline-block;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+  button{
+      margin-bottom: 10px;
+  }
+  
+  /*.pt-5 mx-lg-5{
+    position:absolute;
+    top: 2vh;
+    right: 50vh;
+    z-index: 2;
+}*/
+ 

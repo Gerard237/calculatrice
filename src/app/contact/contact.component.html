@@ -1,0 +1,10 @@
+
+<li [ngClass]="{'list-group-item': true,
+'list-group-item-success': true}">
+    <h4 >Contact : {{ contactName }} <br/><br>   Tel : {{contactTel}}</h4>
+    <!--input type="text" class="form-control" [(ngModel)]="contactName"-->
+    <!--a [routerLink]="[contactTel]">Détail</a-->
+    <br>
+    <button class="btn btn-success"   (click)="Send()">Envoyer un message</button> 
+  </li>
+

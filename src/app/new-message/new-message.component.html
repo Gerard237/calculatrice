@@ -1,0 +1,36 @@
+<app-contact-view></app-contact-view>
+<main class="pt-5 mx-lg-5">
+   
+    <div class="container-fluid mt-5">
+
+            
+    <div class="card">
+      
+      <div class="card-header">
+        <div class="user-name">
+            <h4> Nouveau message</h4>
+        </div>
+      
+        
+      </div>
+          
+          
+            <div class="col">
+              <label> À : </label>
+              <input type="text" class="form-c" id="inputEmail3" NgModel="name" disabled>
+            </div>
+          
+          <div class="msg-page">
+            <textarea class="form-control" id="exampleFormControlTextarea3" rows="10" placeholder="Rédigez votre message" style="margin-left: 5px;"></textarea>
+          
+          
+            <div class="input-group">
+                <button type="submit" class="btn btn-primary" style="margin-top: 7px;" (click)="send()">Envoyer <i class="fa fa-paper-plane"></i></button>
+            </div>
+       </div>
+        
+    </div>
+
+    </div>
+  </main>
+
